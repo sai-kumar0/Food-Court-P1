@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!------------------Required Meta Tags---------------------------->
+    <meta charset="UTF-8">
+    <meta name="author" content="Sai kumar">
+    <meta name="description" content="Log in page">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!------------------------Internal Css------------------------------>
+
+    <link rel="stylesheet" href="Main.css">
+
+    <!---------------------Font awesome---------------------------------->
+
+    <script src="https://kit.fontawesome.com/efdffb124b.js" crossorigin="anonymous"></script>
+
+    <!-----------------------Bootstrap Css--------------------------------->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!----------------------Google fonts------------------------------------>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Anuphan:wght@400;500&family=Roboto&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap" rel="stylesheet">
+    <title>Food Court</title>
+
+</head>
+<body>
+
+  <header>
+
+    <!----------------------------------Nav bar----------------------------------->
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+
+      <div class="container-fluid">
+
+        <a class="navbar-brand ms-3" href="#">
+          <img src="/img/Food court logo.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-center">
+          FOOD <span class="court">COURT</span>
+        </a>
+
+        <button class="navbar-toggler toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars-staggered" style="color: #000000;"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav ms-auto ul-links text-center mb-2 mb-lg-0">
+
+              <form class="d-flex me-sm-4 form">
+                <div class="input-group input-box">
+                  <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <button class="btn" type="button" id="button-addon2"><i class="fa-solid fa-magnifying-glass fa-lg" style="color: #000000;"></i></button>
+                </div>
+              </form>
+
+              <li class="nav-item me-sm-4">
+                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+              </li>
+
+              <li class="nav-item me-sm-4">
+                <a class="nav-link" href="#Menu">Menu</a>
+              </li>
+
+              <li class="nav-item me-sm-4">
+                <a class="nav-link" href="#offers">Offers</a>
+              </li>
+
+              <li class="nav-item me-sm-4">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+
+              <li class="nav-item me-sm-4">
+                <a class="nav-link" href="cart.html"><i class="fa-solid fa-cart-shopping fa-xl" style="color: #000000;"></i></a>
+              </li>
+
+              <li class="nav-item me-sm-4">
+                <a class="nav-link" href="#"><i class="fa-solid fa-user fa-xl" style="color: #000000;"></i></a>
+              </li>
+
+            </ul>
+
+        </div>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+  <section>
+
+    <!------------------------Carousel img-Slider------------------------------->
+
+    <div class="Img-Slider">
+
+      <div class="category m-3 ms-sm-5">
+        <p>Top Stories</p>
+      </div>
+  
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+  
+              <!-- ----------------Indicators/dots---------------------------- -->
+
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div> 
+
+        <!-- ----------------------The slideshow/carousel------------------------ -->
+        <div class="carousel-inner">
+
+          <div class="carousel-item c-item active">
+            <img src="/img/carousel-2.png" alt="Los Angeles" class="d-block c-img" style="width:100%">
+          </div>
+
+          <div class="carousel-item c-item">
+            <img src="/img/Biryani.png" alt="Chicago" class="d-block c-img" style="width:100%"> 
+          </div>
+
+          <div class="carousel-item c-item">
+            <img src="/img/carousel-3.png" alt="Chicago" class="d-block c-img" style="width:100%"> 
+          </div>
+
+        </div>
+        
+        <!-- -----------------Left and right controls/icons------------------------- -->
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+
+      </div>
+
+    </div>
+
+    <!-- --------------------Menu items------------------------- -->
+
+    <div class="menu container-fluid">
+
+      <div class="popular" id="Menu">
+
+        <div class="category m-3 ms-sm-5">
+          <p>Popular Cuisins</p>
+        </div>
+
+        <div class="d-flex img-contain img-menu">
+
+          <div> 
+            <a href="#"><img src="/img/burger.png" alt="burger" class="img-item">
+            <p class="text-center">Burger</p></a>
+          </div>
+
+          <div>
+            <a href="#offers"><img src="/img/Pizza.png" alt="burger" class="img-item"> 
+            <p class="text-center">Pizza</p></a>
+          </div>
+
+          <div>
+            <a href="#offers"><img src="/img/Chicken.png" alt="burger" class="img-item">
+            <p class="text-center">KFC</p></a>
+          </div>
+
+          <div>
+            <a href="#offers"><img src="/img/dessert.png" alt="burger" class="img-item">
+            <p class="text-center">Desserts</p></a>
+          </div>
+
+          <div>
+            <a href="#offers"><img src="/img/Beverages.png" alt="burger" class="img-item">
+            <p class="text-center">Drinks</p></a>
+          </div>
+
+          <div>
+            <a href="#offers"><img src="/img/Sandwich.png" alt="burger" class="img-item">
+            <p class="text-center">Sandwiches</p></a>
+          </div>
+
+          <div>
+            <a href="#offers"><img src="/img/Untitled design.png" alt="burger" class="img-item">
+            <p class="text-center">More</p></a>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- -----------------------Explore Section---------------------- -->
+
+      <div class="explore">
+
+        <div class="category m-3 ms-sm-5">
+          <p>Explore</p>
+        </div>
+
+        <div class="d-flex img-contain img-fill ms-3 mt-5">
+
+          <div> 
+            <a href="#offers"><img src="/img/Hyderabad-1.jpeg" alt="burger">
+            <p class="text-center mt-4">Hyderabad</p></a>
+          </div>
+
+          <div>
+            <a href="#offers"><img src="/img/Delhi-1.jpg" alt="burger"> 
+            <p class="text-center mt-4">Delhi</p></a>
+          </div>
+
+          <div>
+            <a href="#offers"><img src="/img/Mumbai-1.jpg" alt="burger">
+            <p class="text-center mt-4">Mumbai</p></a>
+          </div>
+
+          <div>
+            <a href="#offers"><img src="/img/Rajasthan-1.jpg" alt="burger">
+            <p class="text-center mt-4">Rajasthan</p></a>
+          </div>
+
+          <div>
+            <a href="#offers"><img src="/img/Untitled design.png" alt="burger">
+            <p class="text-center mt-4">More</p></a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- ----------------------Offers Section---------------------- -->
+
+    <div class="offers mt-5 mb-5" id="offers">
+
+      <div class="category m-3 ms-sm-5 mb-4">
+        <p>Offers</p>
+      </div>
+
+      <div class="offers-menu row g-3 ms-sm-3 me-sm-3">
+
+        <div class="card col-lg-3 col-md-4 col-sm-6 col-6">
+
+          <img src="/img/offers-1.png" alt="burgers" class="card-img-top">
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <h4 class="card-title">Burgers</h4><div class="w-auto rating"><i class="fa-solid fa-star pe-1" style="color: #ffffff;"></i>4.5</div>
+            </div>
+            <p class="card-text">Lorem ipsum dolor sit.</p>
+            <div class="d-flex justify-content-between">
+              <span>$24</span><a class="btn add-cart">Add</a>
+            </div>
+            <span class="position-absolute badgi">-30%</span>
+            <span class="visually-hidden">unread messages</span>
+          </div>
+
+        </div>
+
+        <div class="card col-lg-3 col-md-4 col-sm-6 col-6">
+
+          <img src="/img/offers-fried.png" alt="burgers" class="card-img-top">
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <h4 class="card-title">Fried rice</h4><div class="w-auto rating"><i class="fa-solid fa-star pe-1" style="color: #ffffff;"></i>4.7</div>
+            </div>            
+            <p class="card-text">Lorem ipsum dolor sit.</p>
+            <div class="d-flex justify-content-between">
+              <span>$17</span><a class="btn add-cart">Add</a>
+            </div>
+            <span class="position-absolute badgi">-10%</span>
+            <span class="visually-hidden">unread messages</span>
+          </div>
+
+        </div>
+
+        <div class="card col-lg-3 col-md-4 col-sm-6 col-6">
+
+          <img src="/img/offers-cofee.png" alt="burgers" class="card-img-top">
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <h4 class="card-title">Cold Coffee </h4><div class="w-auto rating"><i class="fa-solid fa-star pe-1" style="color: #ffffff;"></i>4.1</div>
+            </div>            
+            <p class="card-text">Lorem ipsum dolor sit.</p>
+            <div class="d-flex justify-content-between">
+              <span>$11</span><a class="btn add-cart">Add</a>
+            </div>
+            <span class="position-absolute badgi">-75%</span>
+            <span class="visually-hidden">unread messages</span>
+          </div>
+
+        </div>
+
+        <div class="card col-lg-3 col-md-4 col-sm-6 col-6">
+
+          <img src="/img/offers-chicken.png" alt="burgers" class="card-img-top">
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <h4 class="card-title">Fried Chicken</h4><div class="w-auto rating"><i class="fa-solid fa-star pe-1" style="color: #ffffff;"></i>4.9</div>
+            </div>            
+            <p class="card-text">Lorem ipsum dolor sit.</p>
+            <div class="d-flex justify-content-between">
+              <span>$41</span><a class="btn add-cart">Add</a>
+            </div>
+            <span class="position-absolute badgi">-50%</span>
+            <span class="visually-hidden">unread messages</span>
+          </div>
+          
+        </div>
+
+        <div class="card col-lg-3 col-md-4 col-sm-6 col-6">
+
+          <img src="/img/offers-samosa.png" alt="burgers" class="card-img-top">
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <h4 class="card-title">Samosa</h4><div class="w-auto rating"><i class="fa-solid fa-star pe-1" style="color: #ffffff;"></i>4.8</div>
+            </div>            
+            <p class="card-text">Lorem ipsum dolor sit.</p>
+            <div class="d-flex justify-content-between">
+              <span>$7</span><a class="btn add-cart">Add</a>
+            </div>
+            <span class="position-absolute badgi">-20%</span>
+            <span class="visually-hidden">unread messages</span>
+          </div>
+
+        </div>
+
+        <div class="card col-lg-3 col-md-4 col-sm-6 col-6">
+
+          <img src="/img/offers-ice.png" alt="burgers" class="card-img-top">
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <h4 class="card-title">Cream Stone</h4><div class="w-auto rating"><i class="fa-solid fa-star pe-1" style="color: #ffffff;"></i>4.0</div>
+            </div>            
+            <p class="card-text">Lorem ipsum dolor sit.</p>
+            <div class="d-flex justify-content-between">
+              <span>$21</span><a class="btn add-cart">Add</a>
+            </div>
+            <span class="position-absolute badgi">-65%</span>
+            <span class="visually-hidden">unread messages</span>
+          </div>
+
+        </div>
+
+        <div class="card col-lg-3 col-md-4 col-sm-6 col-6">
+
+          <img src="/img/offers-cake.png" alt="burgers" class="card-img-top">
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <h4 class="card-title">Cake Tres</h4><div class="w-auto rating"><i class="fa-solid fa-star pe-1" style="color: #ffffff;"></i>4.2</div>
+            </div>            
+            <p class="card-text">Lorem ipsum dolor sit.</p>
+            <div class="d-flex justify-content-between">
+              <span>$31</span><a class="btn add-cart">Add</a>
+            </div>
+            <span class="position-absolute badgi">-80%</span>
+            <span class="visually-hidden">unread messages</span>
+          </div>
+
+        </div>
+        <div class="card col-lg-3 col-md-4 col-sm-6 col-6 position-relative">
+
+          <img src="/img/offers-sharwama.png" alt="burgers" class="card-img-top">
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <h4 class="card-title">Sharwama</h4><div class="w-auto rating"><i class="fa-solid fa-star pe-1" style="color: #ffffff;"></i>3.9</div>
+            </div>            
+            <p class="card-text">Lorem ipsum dolor sit.</p>
+            <div class="d-flex justify-content-between">
+              <span>$16</span><a class="btn add-cart">Add</a>
+            </div>
+            <span class="position-absolute badgi">-45%</span>
+            <span class="visually-hidden">unread messages</span>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- ---------------------Specials menu--------------------- -->
+
+    <div class="Specials">
+
+      <div class="category m-3 ms-sm-5 mb-4">
+        <p>Specials</p>
+      </div>
+
+      <div class="offers-menu row g-3 ms-sm-3 me-sm-3">
+
+        <div class="card col-lg-3 col-md-4 col-sm-6 col-6">
+
+          <img src="/img/specials-rat.png" alt="burgers" class="card-img-top">
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <h4 class="card-title">Ratatouli</h4><div class="w-auto rating"><i class="fa-solid fa-star pe-1" style="color: #ffffff;"></i>5.0</div>
+            </div>
+            <p class="card-text">Lorem ipsum dolor sit.</p>
+            <div class="d-flex justify-content-between">
+              <span>$114</span><a class="btn add-cart">Add</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="card col-lg-3 col-md-4 col-sm-6 col-6">
+
+          <img src="/img/specials-chick.png" alt="burgers" class="card-img-top">
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <h4 class="card-title">Nuggets</h4><div class="w-auto rating"><i class="fa-solid fa-star pe-1" style="color: #ffffff;"></i>4.4</div>
+            </div>            
+            <p class="card-text">Lorem ipsum dolor sit.</p>
+            <div class="d-flex justify-content-between">
+              <span>$62</span><a class="btn add-cart">Add</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="card col-lg-3 col-md-4 col-sm-6 col-6">
+
+          <img src="/img/offers-pizza.png" alt="burgers" class="card-img-top">
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <h4 class="card-title">Margarite </h4><div class="w-auto rating"><i class="fa-solid fa-star pe-1" style="color: #ffffff;"></i>3.6</div>
+            </div>            
+            <p class="card-text">Lorem ipsum dolor sit.</p>
+            <div class="d-flex justify-content-between">
+              <span>$35</span><a class="btn add-cart">Add</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="card col-lg-3 col-md-4 col-sm-6 col-6">
+
+          <img src="/img/specials-fries.png" alt="burgers" class="card-img-top">
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <h4 class="card-title">French fries</h4><div class="w-auto rating"><i class="fa-solid fa-star pe-1" style="color: #ffffff;"></i>4.1</div>
+            </div>            
+            <p class="card-text">Lorem ipsum dolor sit.</p>
+            <div class="d-flex justify-content-between">
+              <span>$15</span><a class="btn add-cart">Add</a>
+            </div>
+          </div>
+          
+        </div>
+
+        <div class="card col-lg-3 col-md-4 col-sm-6 col-6">
+
+          <img src="/img/specials-idli.png" alt="burgers" class="card-img-top">
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <h4 class="card-title">Idli</h4><div class="w-auto rating"><i class="fa-solid fa-star pe-1" style="color: #ffffff;"></i>4.6</div>
+            </div>            
+            <p class="card-text">Lorem ipsum dolor sit.</p>
+            <div class="d-flex justify-content-between">
+              <span>$21</span><a class="btn add-cart">Add</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="card col-lg-3 col-md-4 col-sm-6 col-6">
+
+          <img src="/img/specials-nugg.png" alt="burgers" class="card-img-top">
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <h4 class="card-title">Chicken Soup</h4><div class="w-auto rating"><i class="fa-solid fa-star pe-1" style="color: #ffffff;"></i>5.0</div>
+            </div>            
+            <p class="card-text">Lorem ipsum dolor sit.</p>
+            <div class="d-flex justify-content-between">
+              <span>$39</span><a class="btn add-cart">Add</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="card col-lg-3 col-md-4 col-sm-6 col-6">
+
+          <img src="/img/specials-tacos.png" alt="burgers" class="card-img-top">
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <h4 class="card-title">Tacos</h4><div class="w-auto rating"><i class="fa-solid fa-star pe-1" style="color: #ffffff;"></i>4.7</div>
+            </div>            
+            <p class="card-text">Lorem ipsum dolor sit.</p>
+            <div class="d-flex justify-content-between">
+              <span>$61</span><a class="btn add-cart">Add</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="card col-lg-3 col-md-4 col-sm-6 col-6 position-relative">
+
+          <img src="/img/specials-sand.png" alt="burgers" class="card-img-top">
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <h4 class="card-title">Sandwich</h4><div class="w-auto rating"><i class="fa-solid fa-star pe-1" style="color: #ffffff;"></i>4.0</div>
+            </div>            
+            <p class="card-text">Lorem ipsum dolor sit.</p>
+            <div class="d-flex justify-content-between">
+              <span>$19</span><a class="btn add-cart">Add</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+<!-- ----------------------------------footer section------------------------------  -->
+
+  <footer id="contact">
+
+    <div class="container-fluid footer pt-5 mt-5">
+
+      <div class="row foot-container p-3">
+
+        <!-- ----------------logo and title------------- -->
+
+        <div class="col-lg-4 col-md-6 col-12 pe-5">
+          <div class="logo d-flex">
+            <img src="img/Food court logo.png" alt="logo" class="w-25 h-25">
+            <div class="ps-3 logo-title">
+              <h3 class="title">Food <span>Court</span></h3>
+              <p class="text">Enjoy every last bite and Experience our fastest delivery within Minutes</p>
+            </div>
+          </div>
+          <div class="f-contact">
+            <h3 class="ps-3 pt-5">Contact us :</h3>
+            <div class="ps-5 pt-3 d-flex flex-column ">
+              <a href="mailto:saichary934@gmail.com"><i class="fa-solid pe-3 pb-4 fa-phone fa-xl" style="color: #ffffff;"></i><span>+91 9347266424</span></a>
+              <a href="tel:9347266424"><i class="fa-solid pe-3 fa-envelope fa-xl" style="color: #ffffff;"></i><span>saichary934@gmail.com</span></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ----------------Branches and Navigation------------------- -->
+
+        <div class="col-lg-4 col-md-6 col-12">
+
+          <div class="d-flex justify-content-center align-content-center pt-5">
+            <div class="pe-4 text-center f-text">
+              <h4>Branches :</h4>
+              <p>Hyderabad</p>
+              <p>Banglore</p>
+              <p>Chennai</p>
+              <p>Mumbai</p>
+            </div>
+
+            <div class="ps-4 f-nav">
+              <p><a href="#">Home</a></p>
+              <p><a href="#">About</a></p>
+              <p><a href="#">Download</a></p>
+              <p><a href="#">Privacy Policy</a></p>
+              <p><a href="#">Terms & conditions</a></p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- ----------------------Media and contact-------------------- -->
+
+        <div class="col-lg-4 col-md-6 col-12">
+
+          <div class="f-media pt-5">
+            <h4 class="pb-5 text-light">Follow us</h4>
+            <div class="d-flex justify-content-around">
+              <a href="#"><i class="fa-brands fa-facebook fa-2xl" style="color: #ffffff;"></i></a>
+              <a href="#"><i class="fa-brands fa-github fa-2xl" style="color: #ffffff;"></i></a>
+              <a href="#"><i class="fa-brands fa-pinterest fa-2xl" style="color: #ffffff;"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter fa-2xl" style="color: #ffffff;"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+    <!------------------------------Internal Javascript------------------------------------->
+    <script src="script.js"></script>
+
+    <!-----------------------------Bootstrap Javascript------------------------------------->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>

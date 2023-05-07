@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Anuphan', sans-serif;
+}
+
+/* background image */
+body {
+    height: 100vh;
+    background-image: url("img/Background\ sign.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* form box */
+
+.form-box {
+    background-color: #fff;
+    width: 90%;
+    max-width: 450px;
+    border-radius: 15px;
+}
+
+/* Sign in & Sign up btns */
+
+.logs {
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f5ebe0;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+#signin {
+    border-radius: 15px 0 0 0;
+}
+
+#signup {
+    border-radius: 0 15px 0 0;
+}
+
+.logs:hover, .logs:active {
+    background-color: #fff;
+}
+
+.active {
+    background-color: #fff;
+}
+
+/* Input settings */
+
+.form-control {
+    border: none !important;
+    border-bottom: 3px solid black !important;
+    outline: none !important;
+    font-size: 20px !important;
+}
+
+.input-group-text {
+    background-color: #fff !important;
+    border: none !important;
+    border-bottom: 3px solid black !important;
+    outline: none !important;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+
+/* Buttons Settings */
+
+.btn {
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    height: 50px !important;
+}
+
+.btn:focus {
+    box-shadow: none !important;
+}
+
+/* Logo and Title box  */
+.img-logo img{
+    width: 230px !important;
+    height: 230px !important;
+    border-radius: 50px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.main-title h1, .main-title span {
+    font-size: 80px;
+    font-family:'Kaushan Script', cursive;
+    color: #fff;
+    font-weight: 600;
+}
+
+.main-title span {
+    color: #fff300;
+}
+
+.sub-title p {
+    color: #fff;
+    margin-left: 20px;
+}
+
+.main-box {
+    margin-bottom: 400px;
+}
+
+.optContainer span {
+    cursor: pointer;
+}
+
+/* Media queries */
+@media only screen and (max-width: 900px) {
+    body {
+        flex-direction: column;
+    }
+    .main-box {
+        margin-bottom: 0px;
+        width: 80% !important;
+    }
+
+    .form-box {
+        width: 90% !important;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    .main-box {
+        margin-bottom: 0px;
+        width: 100% !important;
+    }
+
+    .form-box {
+        width: 100% !important;
+    }
+
+}
+
+@media screen and (max-width: 520px) {
+    .main-box .box .img-logo{
+        display: none;
+    }
+
+    .form-box {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
