@@ -4,97 +4,97 @@ let products = [
     {
         name : 'Burger',
         price : 24,
-        tag : '/img/offers-1',
+        tag : './img/offers-1',
         inCart : 0
     },
     {
         name : 'Fried Rice',
         price : 17,
-        tag : '/img/offers-fried',
+        tag : './img/offers-fried',
         inCart : 0
     },
     {
         name : 'Cold Coffee',
         price : 11,
-        tag : '/img/offers-cofee',
+        tag : './img/offers-cofee',
         inCart : 0
     },
     {
         name : 'Fried Chicken',
         price : 41,
-        tag : '/img/offers-chicken',
+        tag : './img/offers-chicken',
         inCart : 0
     },
     {
         name : 'Samosa',
         price : 7,
-        tag : '/img/offers-samosa',
+        tag : './img/offers-samosa',
         inCart : 0
     },
     {
         name : 'Cream Stone',
         price : 21,
-        tag : '/img/offers-ice',
+        tag : './img/offers-ice',
         inCart : 0
     },
     {
         name : 'Cake Tres',
         price : 31,
-        tag : '/img/offers-cake',
+        tag : './img/offers-cake',
         inCart : 0
     },
     {
         name : 'Sharwama',
         price : 16,
-        tag : '/img/offers-sharwama',
+        tag : './img/offers-sharwama',
         inCart : 0
     },
     {
         name : 'Ratatouli',
         price : 114,
-        tag : '/img/specials-rat',
+        tag : './img/specials-rat',
         inCart : 0
     },
     {
         name : 'Nuggets',
         price : 62,
-        tag : '/img/specials-chick',
+        tag : './img/specials-chick',
         inCart : 0
     },
     {
         name : 'Margarite',
         price : 35,
-        tag : '/img/specials-pizza',
+        tag : './img/specials-pizza',
         inCart : 0
     },
     {
         name : 'French Fries',
         price : 15,
-        tag : '/img/specials-fries',
+        tag : './img/specials-fries',
         inCart : 0
     },
     {
         name : 'Idli',
         price : 21,
-        tag : '/img/specials-idli',
+        tag : './img/specials-idli',
         inCart : 0
     },
     {
         name : 'chicken Soup',
         price : 39,
-        tag : '/img/specials-nugg',
+        tag : './img/specials-nugg',
         inCart : 0
     },
     {
         name : 'Tacos',
         price : 61,
-        tag : '/img/specials-tacos',
+        tag : './img/specials-tacos',
         inCart : 0
     },
     {
         name : 'Sandwich',
         price : 19,
-        tag : '/img/specials-sand',
+        tag : './img/specials-sand',
         inCart : 0
     },
 ]
