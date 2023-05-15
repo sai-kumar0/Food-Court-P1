@@ -6,7 +6,7 @@
     font-family: 'Anuphan', sans-serif;
 }
 
-/* background image */
+/* --------------------------------------------background image-------------------------------- */
 body {
     height: 100vh;
     background-image: url("img/Background\ sign.jpg");
@@ -15,12 +15,10 @@ body {
     background-attachment: fixed;
     background-size: cover;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
     align-items: center;
 }
 
-/* form box */
+/* -----------------------------------------------------form box------------------------------------------------------ */
 
 .form-box {
     background-color: #fff;
@@ -29,7 +27,7 @@ body {
     border-radius: 15px;
 }
 
-/* Sign in & Sign up btns */
+/* ---------------------------------------Sign in & Sign up btns---------------------------------------------------- */
 
 .logs {
     text-align: center;
@@ -56,7 +54,7 @@ body {
     background-color: #fff;
 }
 
-/* Input settings */
+/* ---------------------------------------------Input settings--------------------------------------------------------------- */
 
 .form-control {
     border: none !important;
@@ -76,7 +74,7 @@ body {
     box-shadow: none !important;
 }
 
-/* Buttons Settings */
+/* -------------------------------------------Buttons Settings------------------------------------------------------ */
 
 .btn {
     font-size: 20px !important;
@@ -88,52 +86,61 @@ body {
     box-shadow: none !important;
 }
 
-/* Logo and Title box  */
-.img-logo img{
-    width: 230px !important;
-    height: 230px !important;
-    border-radius: 50px;
+
+/* ---------------------------------------Logo and title box customization----------------------------------------- */
+
+
+.full-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .box {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 350px;
 }
 
+/* ------------------------------------------Logo img custom----------------------------------------------- */
 
-.main-title h1, .main-title span {
+.logo img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50px;
+}
+
+/* -------------------------------------------Title custom------------------------------------------------------ */
+
+.title h1, .title span {
     font-size: 80px;
     font-family:'Kaushan Script', cursive;
     color: #fff;
     font-weight: 600;
 }
 
-.main-title span {
-    color: #fff300;
+.title span {
+    color:#fff300;
 }
 
-.sub-title p {
+.title p {
     color: #fff;
-    margin-left: 20px;
-}
-
-.main-box {
-    margin-bottom: 400px;
+    padding-left: 20px;
 }
 
 .optContainer span {
     cursor: pointer;
 }
 
-/* Media queries */
+
+
+/* ------------------------------------Media queries------------------------------------------------- */
+
+
 @media only screen and (max-width: 900px) {
-    body {
-        flex-direction: column;
-    }
-    .main-box {
-        margin-bottom: 0px;
-        width: 80% !important;
-    }
 
     .form-box {
         width: 90% !important;
@@ -141,25 +148,22 @@ body {
 
 }
 
-@media only screen and (max-width: 900px) {
-    .main-box {
-        margin-bottom: 0px;
-        width: 100% !important;
-    }
+@media only screen and (max-width: 990px) {
 
-    .form-box {
-        width: 100% !important;
+    .box {
+        padding: 50px;
     }
 
 }
 
-@media screen and (max-width: 520px) {
-    .main-box .box .img-logo{
-        display: none;
-    }
+@media screen and (max-width: 600px) {
 
     .form-box {
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .logo img {
+        display: none;
     }
 }

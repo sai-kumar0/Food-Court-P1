@@ -399,6 +399,7 @@ body::-webkit-scrollbar {
     width: 45%;
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
     align-items: center;
     padding: 10px 0;
     border-bottom: 1px solid black;
