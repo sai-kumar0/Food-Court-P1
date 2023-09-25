@@ -343,84 +343,84 @@ input:focus {
 }
 
 /* ------------------------Cart css customization------------------- */
-/* 
+
 .products-container {
-    display: flex;
-    flex-wrap: wrap;
-    padding-bottom: 100px;
-    max-width: 650px;
-    justify-content: space-around;
-    margin: 0 auto;
-    margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+  max-width: 650px;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 50px;
 }
 
 .products .icon {
-    font-size: 25px;
-    color: #000000;
-    margin-left: 5%;
-    margin-right: 5%;
-    cursor: pointer;
+  font-size: 25px;
+  color: #000000;
+  margin-left: 5%;
+  margin-right: 5%;
+  cursor: pointer;
 }
 
 .product-header {
-    width: 100%;
-    max-width: 650px;
-    display: flex;
-    justify-content: flex-start;
-    border-bottom: 4px solid black;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 4px solid black;
+  margin: 0 auto;
 }
 
 .product-title {
-    width: 45%;
+  width: 45%;
 }
 
 .price {
-    width: 15%;
-    border-bottom: 1px solid black;
-    display: flex;
-    align-items: center;   
+  width: 15%;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
 }
 
 .quantity {
-    width: 30%;
-    border-bottom: 1px solid black;
-    display: flex;
-    align-items: center;
+  width: 30%;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
 }
 
 .total {
-    width: 10%;
-    border-bottom: 1px solid black;
-    display: flex;
-    align-items: center;
-    font-weight: bold;  
+  width: 10%;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
 }
 
 .product {
-    width: 45%;
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 10px 0;
-    border-bottom: 1px solid black;
+  width: 45%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid black;
 }
 
 .product .productName {
-    margin-left: 8%;
+  margin-left: 8%;
 }
 
 .product .icon {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .products {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .products img {
-    width: 75px;
-} */
+  width: 75px;
+}
