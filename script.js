@@ -183,7 +183,7 @@ function displayCart() {
 
 displayCart();
 
-// ---------------------------------------------Login Page Js-----------------------------------------
+// --------------Login Page Js----------
 
 let signInBtn = document.getElementById("signin");
 let signUpBtn = document.getElementById("signup");

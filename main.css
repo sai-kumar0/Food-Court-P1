@@ -23,7 +23,7 @@ body::-webkit-scrollbar {
   width: 0;
 }
 
-/* -----------------------Search box and Button customization----------------------- */
+/* ----------Search box and Button customization----------------------- */
 
 .input-box input {
   border: none !important;
@@ -342,7 +342,7 @@ input:focus {
     } */
 }
 
-/* ------------------------Cart css customization------------------- */
+/* ------------------------Cart css customization------ */
 
 .products-container {
   display: flex;
